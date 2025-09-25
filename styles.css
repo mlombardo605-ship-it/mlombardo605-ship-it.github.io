@@ -1,0 +1,178 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background: #fff;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HEADER */
+.site-header {
+  background: #000;
+  color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.site-nav a {
+  color: #fff;
+  margin-left: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+  background: #f5f5f5;
+  padding: 4rem 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.hero-img {
+  max-width: 400px;
+  margin-top: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.lead {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn.primary {
+  background: crimson;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: darkred;
+}
+
+.btn.outline {
+  border: 2px solid crimson;
+  color: crimson;
+}
+
+.btn.small {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+}
+
+/* SERVICES */
+.services {
+  padding: 3rem 0;
+  background: #fff;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.service-columns {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  flex: 1;
+  min-width: 250px;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+/* ABOUT */
+.about {
+  background: #f5f5f5;
+  padding: 3rem 0;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+}
+
+/* CONTACT */
+.contact {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.contact-list li {
+  margin: 0.5rem 0;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
